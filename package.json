@@ -1,6 +1,6 @@
 {
   "name": "omxplayer-controller-node",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Raspberry Pi omxplayer controll using dbus-native",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "Raspberry",
     "pi",
     "omxplayer",
-    "dbus"
+    "dbus",
+    "nodejs"
   ],
   "author": "Winston Wright <winstonwp@gmail.com> (https://github.com/winstonwp/)",
   "license": "MIT",
