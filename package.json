@@ -1,5 +1,5 @@
 {
-  "name": "omxplayer-controll",
+  "name": "omxplayer-controller-node",
   "version": "0.1.9",
   "description": "Raspberry Pi omxplayer controll using dbus-native",
   "main": "index.js",
