@@ -17,6 +17,7 @@ omx_dbus.on("changeStatus", function (status) {
  */
 module.exports = omx_dbus;
 module.exports.open = omx_dbus.openPlayer;
+module.exports.quit = omx_dbus.quitPlayer;
 module.exports.playPause = function (cb) {
   //checked
   omx_dbus.method("PlayPause", function (err) {
@@ -26,12 +27,6 @@ module.exports.playPause = function (cb) {
 module.exports.pause = function (cb) {
   //checked IDEM playPause
   omx_dbus.method("Pause", function (err) {
-    return typeof cb === "function" ? cb(err) : {};
-  });
-};
-module.exports.stop = function (cb) {
-  //checked IDEM Stop
-  omx_dbus.method("Stop", function (err) {
     return typeof cb === "function" ? cb(err) : {};
   });
 };
